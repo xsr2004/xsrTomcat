@@ -9,7 +9,7 @@ import java.nio.charset.StandardCharsets;
  * @name：requestHandler
  * @Date：2023/8/23 16:52
  * @Filename：requestHandler
- * 用线程封装接收和响应的操作，每次请求时都会创建一个线程，并不是多路复用的
+ * 用线程封装接收和响应的操作，每次请求时都会创建一个线程，并不是多路复用的 改一下
  */
 public class requestHandler implements Runnable{
     Socket socket=null;
